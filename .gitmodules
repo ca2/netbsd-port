@@ -10,3 +10,7 @@
 	path = graphics3d
 	url = ../graphics3d-port
 	branch = main
+[submodule "imaging"]
+	path = imaging
+	url = ../port-imaging
+	branch = main
