@@ -18,3 +18,19 @@ endif()
 
 
 
+
+
+if(${USE_PORT_FREEIMAGE})
+
+    add_subdirectory(imaging/port_webp)
+    add_subdirectory(imaging/port_tiff4)
+    add_subdirectory(imaging/port_rawlite)
+    add_subdirectory(imaging/port_png)
+    add_subdirectory(imaging/port_openjpeg)
+    add_subdirectory(imaging/port_openexr)
+    add_subdirectory(imaging/port_jxr)
+    add_subdirectory(imaging/port_jpeg)
+
+    add_subdirectory(imaging/port_freeimage)
+
+endif()
